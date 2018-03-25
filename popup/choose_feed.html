@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <style>
+    #popup-content {
+      background-color:white;
+      color:black;
+      text-align:center;
+    }
+    #error-content {
+      background-color:red;
+      color:black;
+    }
+    #buttontoggle {
+      border-radius: 7px;
+      border: 2px black solid;
+      width:500px;
+      height:50px;
+      font-size:30px;
+      text-align:center;
+      background-color: lightgray;
+      color:black;
+      box-shadow: 0em 0em 0.5em;
+      padding: 10px;
+
+
+    }
+    input {
+      border-radius: 7px;
+      border: 2px black solid;
+      width:300px;
+      height:50px;
+      font-size:30px;
+      text-align:center;
+      background-color: white;
+      color:black;
+
+    }
+    #savesettings {
+      border-radius: 7px;
+      border: 2px black solid;
+
+      height:30px;
+      font-size:15px;
+      text-align:center;
+      background-color: white;
+      color:black;
+    }
+    </style>
+  </head>
+  <body>
+
+    <div id="popup-content">
+       <span id="buttontoggle">On</span>
+      <p>
+        Feed URL: <br /><input type="text" id="feed" /><br />
+        Number of Items: <br /><input type="number" id="numitems" /><br />
+        <button id="savesettings">Save!</button><br />
+        
+
+      </p>
+    </div>
+
+    <script src="choose_feed.js"></script>
+
+
+  </body>
+</html>

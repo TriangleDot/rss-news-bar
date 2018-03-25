@@ -1,0 +1,33 @@
+{
+
+  "manifest_version": 2,
+  "name": "Rss News Bar",
+  "version": "1.0",
+
+  "description": "Adds a news bar on the bottom of your browser, showing your favorite RSS channel",
+  "homepage_url": "http://triangledot.org",
+  "icons": {
+    "48": "image-48.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "*://*/*",
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_icon": "image-48.png",
+    "default_title": "RSS Bar",
+    "default_popup": "popup/choose_feed.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content_script/bar.js"]
+    }
+  ]
+
+
+
+}
