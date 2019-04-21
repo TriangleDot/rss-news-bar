@@ -1,9 +1,11 @@
 # rss-news-bar
+** This is currently not maintained and could be a security risk to your browser if you don't trust your RSS source**
+#### USE AT YOUR OWN RISK
 A webextension that adds a horizontally sliding blue bar to your browser, showing your favorite RSS feed.
 
 ## How to install:
 ### Firefox
-* Go to https://addons.mozilla.org/en-US/firefox/addon/rss-news-bar/
+* Go to ~~https://addons.mozilla.org/en-US/firefox/addon/rss-news-bar/~~ 
 * Click Add to Firefox
 ### Chrome-like browsers (Chrome, Vivaldi)
 * Clone this repo
